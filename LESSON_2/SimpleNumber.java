@@ -10,7 +10,7 @@ public class SimpleNumber {
         System.out.print("Input number: ");
         Scanner scanner = new Scanner(System.in);
         int num = scanner.nextInt();
-        int k = 11;
+        //int k = 11;
         for (int i=3; i <= num-1; i++) {
             if (num % i == 0) {
                 System.out.print("NOT Simple");
